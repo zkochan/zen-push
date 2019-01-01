@@ -87,3 +87,4 @@ addMethods(PushStream.prototype, {
 });
 
 module.exports = PushStream;
+module.exports.default = PushStream;
