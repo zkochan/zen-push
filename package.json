@@ -9,6 +9,13 @@
     "@types/zen-observable": "^0.8.0",
     "zen-observable": "^0.8.6"
   },
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "scripts": {
     "test": "node test"
   }
