@@ -59,3 +59,7 @@ pushStream.complete();
 ```
 
 Sends a signal to all observers that the stream is finished. Calling this method terminates the stream.
+
+## License
+
+MIT
