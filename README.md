@@ -1,17 +1,17 @@
-# zen-push
+# @zkochan/zen-push
 
 A push stream observable class. *(Sometimes called a Subject in Rx-speak.)*
 
 ## Install
 
 ```sh
-npm install zen-push
+npm install @zkochan/zen-push
 ```
 
 ## Usage
 
 ```js
-import PushStream from 'zen-push';
+import PushStream from '@zkochan/zen-push';
 
 let pushStream = new PushStream();
 pushStream.observable.subscribe(value => console.log(`Hello ${value}!`));
